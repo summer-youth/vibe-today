@@ -16,8 +16,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.vibecoding.vibetoday",
-      "googleServicesFile": "./ios/app/GoogleService-Info.plist"
+      "bundleIdentifier": "com.vibecoding.vibe-today",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {

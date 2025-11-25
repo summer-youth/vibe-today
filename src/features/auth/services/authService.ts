@@ -72,6 +72,9 @@ const configureGoogleSignIn = () => {
   const googleWebClientId = process.env.EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID;
   const iosClientId = process.env.EXPO_PUBLIC_IOS_GOOGLE_CLIENT_ID;
 
+  console.log('Google web client ID =', googleWebClientId);
+  console.log('Google iOS client ID =', iosClientId);
+
   if (!googleWebClientId) {
     throw new Error('Google Web Client ID is not configured. Please set EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID in .env file');
   }
